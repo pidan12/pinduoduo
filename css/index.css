@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 621824 */
+    src: url('https://at.alicdn.com/t/font_621824_f4sn8wz0oario1or.eot');
+    src: url('https://at.alicdn.com/t/font_621824_f4sn8wz0oario1or.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_621824_f4sn8wz0oario1or.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_621824_f4sn8wz0oario1or.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_621824_f4sn8wz0oario1or.svg#iconfont') format('svg');
+}
+.yiping{
+    width: 100vw;
+    height: 100vh;
+    background-color:white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    flex-direction:column;
+    overflow-y:scroll;
+}
+.fenlei{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 1.16rem;
+    padding-left: 0.62rem;
+    line-height: 1.16rem;
+    font-size: 0.44rem;
+    display: flex;
+    overflow-x: scroll;
+    background: #fff;
+}
+.fenlei::-webkit-scrollbar,.content_item::-webkit-scrollbar{
+    display: none;
+}
+.fenlei li{
+    width: 0.96rem;
+    float:left;
+    margin-left: 0.66rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    flex-shrink: 0;
+}
+.fenlei1{
+    color:red;
+    border-bottom: 0.06rem solid red;
+}
+.content_item{
+    position: absolute;
+    top:1.16rem;
+    bottom:1.16rem;
+    left:0;
+    right:0;
+    background: #F4F4F4;
+    overflow-y: scroll;
+}
+.luobo{
+    position: relative;
+}
+.luobo,.lb_img{
+    width: 100%;
+    height: 4.4rem;
+}
+.lb_img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.lb_img1{
+    z-index: 99;
+}
+.lb_img img{
+    position: absolute;
+}
+.lb_dian{
+    position:absolute;
+    bottom:0.3rem;
+    right:0.48rem;
+    width: 1.62rem;
+    height: 0.18rem;
+    display: flex;
+    justify-content:space-between;
+    z-index: 100;
+}
+.lb_dian div.ldi_active{
+    background: red;
+}
+.lb_dian_it{
+    width: 0.18rem;
+    height: 0.18rem;
+    background: #fff;
+    border-radius: 50%;
+}
+.nr_fl{
+    width: 100%;
+    height: 4.59rem;
+    padding: 0.45rem;
+    background: #fff;
+}
+.nr_fl_1{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 0.33rem;
+}
+.nrfl_it{
+    width: auto;
+    height: 1.77rem;
+    flex-shrink:0;
+}
+.nrfl_it_img{
+    margin:0 auto;
+    width: 1.42rem;
+    height: 1.42rem;
+}
+.nrfl_it a{
+    display: block;
+    font-size: 0.32rem;
+    color:#666;
+    text-align: center;
+    line-height: 0.32rem;
+}
+.pindan_item{
+    width: 100%;
+    height: 8.28rem;
+    background: #fff;
+    margin-top: 0.24rem;
+}
+.pi1 {
+    height: 5.46rem;
+    position: relative;
+}
+.pi1_img{
+    width: 4.5rem;
+    height: 4.9rem;
+    margin: 0 auto;
+}
+.pi1_img2{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 2.31rem;
+    height: 1.91rem;
+}
+.pi1_2{
+    width: 100%;
+    height: 0.9rem;
+    font-size: 0.4rem;
+    padding-left: 0.3rem;
+    padding-right: 0.58rem;
+    margin-bottom: 0.5rem;
+}
+.pi1_3{
+    height: 1rem;
+    width: 100%;
+    padding: 0 0.3rem;
+}
+.pi1_3_p{
+    font-size: 0.42rem;
+    color:red;
+    letter-spacing: 0.05rem;
+    margin-top: 0.34rem;
+    float:left;
+    margin-right: 0.34rem;
+}
+.pi1_3_span{
+    font-size: 0.3rem;
+    color: #9c9c9c;
+    float: left;
+    margin-top: 0.46rem;
+}
+.pi1_3_hong{
+    width: 3.05rem;
+    float: right;
+    height: 1rem;
+    border-radius: 0.15rem;
+    background: #E03025;
+    padding-left: 0.66rem;
+    line-height: 1rem;
+}
+.p3h1{
+    font-size: 0.4rem;
+    color:#fff;
+    margin-right: 0.3rem;
+    float: left;
+}
+.p3h2{
+    float: left;
+    font-size: 0.3rem;
+    color:#fff;
+}
+.footer{
+    width: 100%;
+    height: 1.48rem;
+    position: fixed;
+    left:0;
+    bottom:0;
+    background: #fff;
+    padding:0.14rem 0.74rem 0;
+    color:#666;
+    display: flex;
+    justify-content:space-between;
+}
+.footer_it{
+    text-align: center;
+    width: 1rem;
+    height: 1.16rem;
+    float: left;
+    flex-shrink:0;
+}
+.fit_p{
+    font-size: 0.68rem;
+    font-family: 'iconfont';
+}
+.fit_p2{
+    font-size: 0.26rem;
+    color:#666;
+}
+/*二级页面*/
+.er_header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    background: #fff;
+    padding-left: 0.56rem;
+}
+.er_h1{
+    float: left;
+    font-size: 0.68rem;
+    margin-right: 3.12rem;
+    color:#666;
+}
+.er_h2{
+    font-size: 0.56rem;
+}
+.er_footer{
+    width: 100%;
+    height: 1.32rem;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background: #fff;
+    line-height: 1.23rem;
+
+}
+.er_ht{
+    width: 100%;
+    height: 4.04em;
+}
+.content_item1{
+    top:1.5rem;
+    background: #fff;
+}
+.er_content{
+    width: 100%;
+    height: 4.35rem;
+    background: #fff;
+}
+.er_cl{
+    float: left;
+    width: 3.9rem;
+    margin-right: 0.2rem;
+}
+.er_cr{
+    float: left;
+    padding-right: 0.3rem;
+    width: 6.67rem;
+    margin-bottom: 0.12rem;
+}
+.er_cr1{
+    margin:0.4rem 0.3rem 1.18rem 0.1rem;
+    height: 0.9rem;
+    width:100% ;
+    font-size: 0.4rem;
+}
+.er_cr2{
+    color:#9c9c9c;
+    font-size: 0.32rem;
+    height: 0.32rem;
+    width: 100%;
+}
+.er_cr2 p{
+    float: right;
+}
+.er_cr3{
+    width: 100%;
+    height: 1.37rem;
+    position: relative;
+    border-bottom: 0.03rem solid #EDEDED;
+}
+.er_cr3_1{
+    margin-top: 0.2rem;
+    color:#9c9c9c;
+    font-size: 0.32rem;
+    margin-bottom: 0.18rem;
+}
+.er_cr3_2{
+    color:#E03025;
+    font-size: 0.42rem;
+}
+.er_cr3_3{
+    width: 2.32rem;
+    line-height: 0.96rem;
+    height: 0.96rem;
+    background: #E03025;
+    color:#fff;
+    position: absolute;
+    bottom:0.33rem;
+    right:0;
+}
+.er_cr3_3_p{
+    margin:0 0.15rem 0 0.45rem;
+    font-size:0.34rem;
+    float: left;
+}
+.er_cr3_3_p1{
+    font-size: 0.26rem;
+}
+.er_f1{
+    margin-left: 1.45rem;
+    height: 0.5rem;
+    float:left;
+    width: 3.9rem;
+}
+.er_f1 p{
+    font-family: 'iconfont';
+    font-size: 0.5rem;
+    margin-right: 0.24rem;
+    float:left;
+}
+.er_f1 p.er_f1_p{
+    font-size: 0.4rem;
+}
+.er_f2{
+    width: 0.03rem;
+    height: 0.56rem;
+    float: left;
+    background:#E0E0E0;
+    margin-top: 0.4rem;
+}
